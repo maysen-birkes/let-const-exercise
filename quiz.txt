@@ -1,0 +1,26 @@
+Quiz
+
+1. What is the diiference between var and let?
+
+var can reassign and redeclare a variable. For example if I was to do...
+
+var pet = brody 
+
+I can then redeclare it or reassign it later on in my code. And there will be no errors.
+
+let however cannot do the same. Let can reassign, but it cannot redclare. Once a varibale is declared using let it cannot be redeclared. You would need to declare a whole new variable when using let. Let creates a block scope.
+
+
+2. What is the difference between var and const?
+
+var again can reassign or redeclare. const you cannot reassign or redclare, it is constant and will remain the same through out the entirety of your code. const aslo creates a block scope.
+
+
+3. What is the difference between let and const
+
+let can be reassigned where as const cannot be reassigned. const also cannot redeclare.
+
+
+4. What is hoisting?
+
+Hoisting is when variables are lifted to the top of their scope before they are declared. So that they can be declared later on. It is also considered a feature of var as you can access the variable name as well as it's undefined value before you use it later on.
